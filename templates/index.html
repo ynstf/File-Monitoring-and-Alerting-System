@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time File Streaming</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js"></script>
+</head>
+<body>
+    <h1>File Monitor</h1>
+    <p>Selected File: {{ selected_file }}</p>
+    <p>Critical File: {{ critical_file }}</p>
+    
+
+    <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".txt">
+        <label for="critical_file">Enter Critical File Name:</label>
+        <input type="text" name="critical_file" id="critical_file" placeholder="Enter critical file name">
+        <button type="submit">Upload</button>
+    </form>
+
+    <pre id="file-content"></pre>
+    
+    <script>
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+        socket.on('connect', function() {
+            console.log('Connected to the server');
+        });
+
+        socket.on('disconnect', function() {
+            console.log('Disconnected from the server');
+        });
+
+        socket.on('file_update', function(data) {
+            document.getElementById('file-content').textContent += data;
+        });
+
+        socket.on('critical_file_update', function(data) {
+        document.getElementById('file-content').innerHTML += '<span style="color: red;">' + data + '</span>';
+        });
+    </script>
+</body>
+</html>
