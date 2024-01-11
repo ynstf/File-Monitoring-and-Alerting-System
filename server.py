@@ -5,6 +5,7 @@ from flask import Flask, render_template, Response, request, redirect, url_for
 from flask_socketio import SocketIO
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+import threading
 
 app = Flask(__name__)
 socketio = SocketIO(app)
@@ -34,8 +35,8 @@ class MyHandler(FileSystemEventHandler):
 
             # Check if the modified file is the critical file
             if critical_file and data_dict.get("path", "").split("\\")[-1] == critical_file:
-                print("hhhhhhhhhhhhh")
-                socketio.emit('critical_file_update', data)  # Emit a special event for critical file changes
+                socketio.emit('critical_file_update', {'data': f'{critical_file} has changed!', 'criticality': 'critical'})
+                #socketio.emit('critical_file_update', data)  # Emit a special event for critical file changes
 
         except json.JSONDecodeError:
             socketio.emit('file_update', content[last_position:])
@@ -94,4 +95,5 @@ if __name__ == '__main__':
     observer.schedule(MyHandler(), path=os.path.dirname(os.path.abspath('your_file.txt')), recursive=False)
     observer.start()
 
-    socketio.run(app, debug=False)
+    #socketio.run(app, debug=False)
+    threading.Thread(target=socketio.run, args=(app,), kwargs={'debug': False}).start()

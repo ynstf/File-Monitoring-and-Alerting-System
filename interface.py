@@ -8,6 +8,7 @@ from watchdog.events import FileSystemEventHandler
 import sys
 from queue import Queue
 import threading
+import subprocess
 
 # Global Variables for Log File Monitoring
 LOG_FILE_NAME = "log.txt"
@@ -83,6 +84,10 @@ def create_user_interface():
     directory_entry.pack(pady=5)
     tk.Button(root, text="Browse", command=select_directory).pack(pady=5)
 
+    # Add a Label for the additional message
+    message_label = tk.Label(root, text="To explore more functionalities, visit: http://localhost:5000/")
+    message_label.pack(pady=5)
+
     # Create scrolled text widget for displaying log changes
     log_display = scrolledtext.ScrolledText(root, width=80, height=20)
     log_display.pack(padx=10, pady=10)
@@ -112,6 +117,9 @@ def create_user_interface():
 
     # Start a thread to update the display
     threading.Thread(target=update_display, daemon=True).start()
+
+    # Start the Flask script in a separate process
+    subprocess.Popen(['python', 'server.py'])
 
     root.mainloop()
 

@@ -1196,3 +1196,160 @@
 {"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem\\hh\\Nouveau dossier"}
 {"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem\\hh\\Nouveau dossier"}
 {"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem\\hh\\Nouveau dossier\\hhh.txt"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau document texte.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\hh.txt"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\hh.txt"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\hh.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\app1.py"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\app1.py"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default"}
+{"event_type": "file_created", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\permissions.sqlite-journal"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\permissions.sqlite-journal"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\permissions.sqlite"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\permissions.sqlite-journal"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\permissions.sqlite-journal"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\permissions.sqlite-journal"}
+{"event_type": "directory_modified", "path": "C:/Windows\\System32\\config\\DEFAULT.LOG2"}
+{"event_type": "file_created", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\datareporting\\glean\\db\\data.safe.tmp"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\datareporting\\glean\\db\\data.safe.tmp"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\datareporting\\glean\\db"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\datareporting\\glean\\db\\data.safe.bin"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\datareporting\\glean\\db\\data.safe.bin"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\datareporting\\glean\\db"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations"}
+{"event_type": "file_created", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations\\KZKYXJJG010N3OMWSX7I.temp"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations\\KZKYXJJG010N3OMWSX7I.temp"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations\\KZKYXJJG010N3OMWSX7I.temp"}
+{"event_type": "file_created", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations\\969252ce11249fdd.customDestinations-ms~RF1aa7288.TMP"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations\\969252ce11249fdd.customDestinations-ms~RF1aa7288.TMP"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations\\969252ce11249fdd.customDestinations-ms~RF1aa7288.TMP"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations\\969252ce11249fdd.customDestinations-ms~RF1aa7288.TMP"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations\\969252ce11249fdd.customDestinations-ms"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations\\969252ce11249fdd.customDestinations-ms~RF1aa7288.TMP"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations\\969252ce11249fdd.customDestinations-ms~RF1aa7288.TMP"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CustomDestinations"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\WebStorage\\QuotaManager-journal"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\WebStorage\\QuotaManager-journal"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\WebStorage\\QuotaManager"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\WebStorage\\QuotaManager-journal"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Local\\Packages\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\\AC\\INetCache\\JX22KT3T"}
+{"event_type": "file_created", "path": "C:/Users\\pc\\AppData\\Local\\Packages\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\\AC\\INetCache\\JX22KT3T\\file2WPJ3Z2Y.enc"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Local\\Packages\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\\AC\\INetCache\\JX22KT3T\\file2WPJ3Z2Y.enc"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Local\\Packages\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\\AC\\INetCache\\GY4S26NI\\fileTL357ZNA.enc"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Local\\Packages\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\\AC\\INetCache\\GY4S26NI\\fileTL357ZNA.enc"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\sessionstore-backups\\recovery.baklz4"}
+{"event_type": "file_deleted", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\sessionstore-backups\\recovery.baklz4"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\sessionstore-backups"}
+{"event_type": "file_created", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\sessionstore-backups\\recovery.jsonlz4.tmp"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\sessionstore-backups\\recovery.jsonlz4.tmp"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\sessionstore-backups"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\sessionstore-backups"}
+{"event_type": "directory_modified", "path": "C:/Users\\pc\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\rfwlvc7y.default\\sessionstore-backups\\recovery.jsonlz4"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau document texte.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\hi.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\hi.txt"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\hi.txt"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\hi.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\.git\\objects\\15\\e4c3a82aa1ef2ec56672acae92ac6b73f30f12"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\Nouveau document texte.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hh.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\server.py"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hh.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hh.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hh.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hh.txt"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hh.txt"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hh.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\.git\\objects\\65\\88cc6c08b0e31c21f6f8d8647d89c7aa85c285"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\Nouveau document texte.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hi.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hi.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hi.txt"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier\\hi.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau dossier"}
+{"event_type": "file_created", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\Nouveau document texte.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\hh.txt"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\hh.txt"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\hh.txt"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\index.html"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\home.html"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\home.html"}
+{"event_type": "file_deleted", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates\\home.html"}
+{"event_type": "directory_modified", "path": "C:/Users/pc/Desktop/freelance/raneem/delivery\\templates"}
