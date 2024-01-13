@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
     <title>Real-time File Monitoring</title>
     <style>
         body {
@@ -61,6 +62,27 @@
         .critical-update {
             color: red;
         }
+
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[disabled] {
+            background-color: #f0f0f0; /* Change the background color for disabled input */
+        }
+
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js"></script>
 </head>
@@ -76,6 +98,14 @@
         <label for="file">Choose a file:</label>
         <input type="file" name="file" id="file" required>
         
+        
+
+        <label for="alert_method">Alert Method:</label>
+        <select name="alert_method" id="alert_method" onchange="toggleEmailField()">
+            <option value="email">Email</option>
+            <option value="notification">Notification on PC</option>
+        </select>
+
         <label for="email">Your Email:</label>
         <input type="email" name="email" id="email" required>
 
@@ -88,6 +118,15 @@
     <pre id="file-content"></pre>
 
     <script>
+
+        function toggleEmailField() {
+                    var alertMethod = document.getElementById('alert_method');
+                    var emailField = document.getElementById('email');
+
+                    // Disable the email field if "Notification on PC" is selected, enable otherwise
+                    emailField.disabled = (alertMethod.value === 'notification');
+                }
+
         var socket = io.connect('http://' + document.domain + ':' + location.port);
 
         socket.on('connect', function() {
@@ -110,6 +149,10 @@
         // Append the span with the determined criticality class
         document.getElementById('file-content').innerHTML += '<span class="' + criticalityClass + '">' + data.data + '</span>';
         });
+
+        // Call the function once on page load to set the initial state
+        toggleEmailField();
+
     </script>
 </body>
 </html>

@@ -10,8 +10,8 @@ def send_email_to(email_receiver, critical_file):
     load_dotenv()
 
     # Define email sender and receiver
-    email_sender = "lovelysalva00@gmail.com" #os.environ.get('EMAIL') #'write-email-here'
-    email_password = "kkcz ppvk yxmy uxyn" #os.environ.get('PWD') #'write-password-here'
+    email_sender = os.environ.get('EMAIL') #'write-email-here'
+    email_password = os.environ.get('PWD') #'write-password-here'
 
     # Set the subject and body of the email
     subject = 'Critical File Change Notification'

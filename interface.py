@@ -77,6 +77,10 @@ def create_user_interface():
     root = tk.Tk()
     root.title("Log File Monitoring and Alerting System")
 
+    # Set window logo
+    logo_image = tk.PhotoImage(file="static/favicon.png")  # Replace with the path to your logo image
+    root.iconphoto(True, logo_image)
+
     # Create Label and Entry for directory selection
     tk.Label(root, text="Select Directory to Monitor:").pack(pady=5)
     path_var = tk.StringVar()

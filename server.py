@@ -6,7 +6,10 @@ from flask_socketio import SocketIO
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import threading
+from dotenv import load_dotenv
 from sender.send_email import send_email_to
+import ctypes
+from plyer import notification
 
 app = Flask(__name__)
 socketio = SocketIO(app)
@@ -15,6 +18,7 @@ last_position = 0
 selected_file = None
 critical_file = None  
 user_email = None
+alert_method = None
 
 class MyHandler(FileSystemEventHandler):
     def on_modified(self, event):
@@ -35,8 +39,25 @@ class MyHandler(FileSystemEventHandler):
                 #socketio.emit('critical_file_update', data)  # Emit a special event for critical file changes
                 # Send an email to the user
                 # user_email = request.form.get('email')  # Retrieve the user's email from the form
-                if user_email:
-                    #send to user
+                
+                if alert_method == 'notification':
+                    # show notifiation to user
+                    try:
+                        ctypes.windll.user32.MessageBoxW(0, f'The critical file {critical_file} has been modified. Take immediate action!', 'Critical File Alert', 1)
+                    except Exception as e:
+                        # Cross-platform notification using plyer
+                        notification_title = 'Critical File Alert'
+                        notification_message = f'The critical file {critical_file} has been modified. Take immediate action!'
+                        notification.notify(
+                            title=notification_title,
+                            message=notification_message,
+                            app_icon=None,  # e.g., 'path/to/icon.png'
+                            timeout=22  # Notification will disappear after 22 seconds
+                        )
+                        print(f"Error displaying notification on windows : {e}")
+                else :
+                    #send email to user
+                    load_dotenv()
                     send_email_to(user_email, critical_file)
 
         except json.JSONDecodeError:
@@ -69,7 +90,7 @@ def handle_disconnect():
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
-    global selected_file, critical_file, user_email
+    global selected_file, critical_file, user_email, alert_method
     if 'file' not in request.files:
         return "No file part"
     
@@ -82,7 +103,9 @@ def upload_file():
     file.save(selected_file)
 
     # Retrieve the user's email from the form
-    user_email = request.form.get('email')
+    alert_method = request.form.get('alert_method')
+    if alert_method == 'email':
+        user_email = request.form.get('email')
 
     # Added: Allow user to input the critical file name
     critical_file = request.form.get('critical_file', None)
