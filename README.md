@@ -37,11 +37,9 @@ Replace your-email@gmail.com and your-email-password with your actual email and 
 
 ### Run the application:
 
-    ```python interface.py```
+    python interface.py
 
-    ```python server.py```
-
-    ```Visit http://localhost:5000/ in your browser.```
+    Visit http://localhost:5000/ in your browser.
 
 
 ### Configuration
@@ -52,6 +50,19 @@ Replace your-email@gmail.com and your-email-password with your actual email and 
 - **Critical File (optional)** : Optionally specify a critical file for immediate alerts.
 
 ## Screenshots:
+### interface:
+
+![interface](https://github.com/ynstf/File-Monitoring-and-Alerting-System/assets/107154559/06c1c763-a57e-4d6c-98d1-6e6aa2b11c53)
+
+### web:
+
+![web](https://github.com/ynstf/File-Monitoring-and-Alerting-System/assets/107154559/620935a4-cbd4-422d-ab44-186c9511612e)
+
+### alerts:
+#### emails:
+![mail](https://github.com/ynstf/File-Monitoring-and-Alerting-System/assets/107154559/900ea3f9-001f-4775-a5ce-0ffcb48f5685)
+#### window:
+![alert win](https://github.com/ynstf/File-Monitoring-and-Alerting-System/assets/107154559/6d70ba5f-7d5e-48b8-b517-bf6cf8c48a45)
 
 
 ## License
