@@ -6,13 +6,15 @@ from flask_socketio import SocketIO
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import threading
+from sender.send_email import send_email_to
 
 app = Flask(__name__)
 socketio = SocketIO(app)
 
 last_position = 0
 selected_file = None
-critical_file = None  # Added: to store the user-selected critical file
+critical_file = None  
+user_email = None
 
 class MyHandler(FileSystemEventHandler):
     def on_modified(self, event):
@@ -23,12 +25,6 @@ class MyHandler(FileSystemEventHandler):
 
         try:
             data_dict = json.loads(content[last_position:])
-            #data = format_event_data(data_dict)
-            #socketio.emit('file_update', data)
-
-            data_dict = json.loads(content[last_position:])
-            #print("Event Type:", data_dict["event_type"])
-            #print("Path:", data_dict["path"])
             data = f"{data_dict['event_type'].replace('_', ' ').capitalize()}: {data_dict['path']}"
             data = data + '\n'
             socketio.emit('file_update', data)
@@ -37,6 +33,11 @@ class MyHandler(FileSystemEventHandler):
             if critical_file and data_dict.get("path", "").split("\\")[-1] == critical_file:
                 socketio.emit('critical_file_update', {'data': f'{critical_file} has changed!', 'criticality': 'critical'})
                 #socketio.emit('critical_file_update', data)  # Emit a special event for critical file changes
+                # Send an email to the user
+                # user_email = request.form.get('email')  # Retrieve the user's email from the form
+                if user_email:
+                    #send to user
+                    send_email_to(user_email, critical_file)
 
         except json.JSONDecodeError:
             socketio.emit('file_update', content[last_position:])
@@ -68,7 +69,7 @@ def handle_disconnect():
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
-    global selected_file, critical_file
+    global selected_file, critical_file, user_email
     if 'file' not in request.files:
         return "No file part"
     
@@ -79,6 +80,9 @@ def upload_file():
 
     selected_file = os.path.join(app.root_path, file.filename)
     file.save(selected_file)
+
+    # Retrieve the user's email from the form
+    user_email = request.form.get('email')
 
     # Added: Allow user to input the critical file name
     critical_file = request.form.get('critical_file', None)
