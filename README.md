@@ -23,7 +23,7 @@ This project implements a real-time file monitoring and alerting system. It util
 
 ### Clone the repository:
 
-   ```git clone https://github.com/your-username/real-time-file-monitoring.git```
+   ```git clone https://github.com/ynstf/File-Monitoring-and-Alerting-System.git```
 
 Install dependencies:
 ```pip install -r requirements.txt```
